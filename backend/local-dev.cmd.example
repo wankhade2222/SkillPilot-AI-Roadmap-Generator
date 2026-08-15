@@ -1,0 +1,15 @@
+@echo off
+
+set "DB_URL=jdbc:mysql://localhost:3306/skillforge"
+set "DB_USERNAME=root"
+set "DB_PASSWORD=REPLACE_WITH_MYSQL_PASSWORD"
+set "FRONTEND_URL=http://localhost:3000"
+set "JWT_SECRET=REPLACE_WITH_A_BASE64_SECRET"
+set "JWT_EXPIRATION_MS=86400000"
+set "GEMINI_API_KEY=REPLACE_WITH_GEMINI_API_KEY"
+set "GEMINI_API_KEYS=REPLACE_WITH_OPTIONAL_COMMA_SEPARATED_GEMINI_KEYS"
+set "GEMINI_API_URL=https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
+set "GEMINI_FALLBACK_ENABLED=true"
+set "OPENROUTER_API_KEY=REPLACE_WITH_OPENROUTER_KEY"
+set "OPENROUTER_API_URL=https://openrouter.ai/api/v1/chat/completions"
+set "OPENROUTER_MODEL=openrouter/free"
