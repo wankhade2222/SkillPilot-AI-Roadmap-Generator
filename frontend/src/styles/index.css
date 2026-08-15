@@ -1,0 +1,65 @@
+:root {
+  --sf-bg: #0a0d26;
+  --sf-bg-soft: #12183b;
+  --sf-bg-card: rgba(18, 23, 53, 0.96);
+  --sf-bg-input: rgba(33, 37, 74, 0.96);
+  --sf-grid: rgba(255, 255, 255, 0.04);
+  --sf-line: rgba(152, 120, 255, 0.12);
+  --sf-line-strong: rgba(152, 120, 255, 0.22);
+  --sf-text: #ffffff;
+  --sf-text-soft: #8f96b6;
+  --sf-text-faint: #70789b;
+  --sf-accent: #8d5cfb;
+  --sf-accent-strong: #6f4df4;
+  --sf-accent-glow: rgba(129, 92, 251, 0.42);
+  --sf-success: #5fd09f;
+  --sf-success-bg: rgba(17, 38, 23, 0.92);
+  --sf-success-line: rgba(95, 208, 159, 0.18);
+  --sf-radius-xl: 32px;
+  --sf-radius-lg: 24px;
+  --sf-radius-md: 16px;
+  --sf-shadow: 0 28px 90px rgba(0, 0, 0, 0.4);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  color: var(--sf-text);
+  font-family: "DM Sans", sans-serif;
+  background:
+    radial-gradient(circle at top right, rgba(102, 68, 255, 0.28), transparent 28%),
+    radial-gradient(circle at top left, rgba(80, 58, 214, 0.2), transparent 22%),
+    linear-gradient(180deg, #0b0f2b 0%, #10153a 100%);
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(var(--sf-grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--sf-grid) 1px, transparent 1px);
+  background-size: 52px 52px;
+  opacity: 1;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+}
