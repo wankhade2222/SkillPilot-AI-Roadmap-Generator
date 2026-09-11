@@ -1,4 +1,4 @@
-# SkillForge AI Roadmap Generator
+# SkillPilot AI Roadmap Generator
 
 SkillForge is a full-stack AI learning planner that turns a user's goal, experience level, and learning style into a personalized roadmap with trackable milestones, direct resources, and progress monitoring.
 
