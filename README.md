@@ -1,10 +1,10 @@
 # SkillPilot AI Roadmap Generator
 
-SkillForge is a full-stack AI learning planner that turns a user's goal, experience level, and learning style into a personalized roadmap with trackable milestones, direct resources, and progress monitoring.
+SkillPilot is a full-stack AI learning planner that turns a user's goal, experience level, and learning style into a personalized roadmap with trackable milestones, direct resources, and progress monitoring.
 
 ## Overview
 
-SkillForge is built for learners who want a structured path instead of random tutorials. The app generates a roadmap, stores it per user, and lets users track completion module by module.
+Skillpilot is built for learners who want a structured path instead of random tutorials. The app generates a roadmap, stores it per user, and lets users track completion module by module.
 
 ## Core Features
 
